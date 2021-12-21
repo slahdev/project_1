@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>project</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--start settings box-->
+    <div class="settings-box">
+      <div class="toggle-settings">
+        <i class="fas fa-cog fa-spin"></i>
+      </div>
+      <div class="setting-container">
+        <div class="option-box">
+          <h4>Colors</h4>
+          <ul class="colors-list">
+            <li class="active" data-color="#22f5ff"></li>
+            <li data-color="#74992e"></li>
+            <li data-color="#ff5722"></li>
+            <li data-color="#e91e63"></li>
+          </ul>
+        </div>
+        <div class="option-box">
+          <h4>Random Background</h4>
+          <div class="random">
+            <span class="yes active" data-background="yes">Yes</span>
+            <span class="no" data-background="no">No</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End settings box-->
+    <!--start nav bullets-->
+    <div class="nav-bullets">
+      <div class="bullet" data-section=".about-us">
+        <div class="tooltip">About Us</div>
+      </div>
+      <div class="bullet" data-section=".skills">
+        <div class="tooltip">Skills</div>
+      </div>
+      <div class="bullet" data-section=".products">
+        <div class="tooltip">Products</div>
+      </div>
+      <div class="bullet" data-section=".contact">
+        <div class="tooltip">Contact</div>
+      </div>
+    </div>
+    <!--end nav bullets-->
+    <!--start landing page-->
+    <div class="landing-page">
+      <div class="overly"></div>
+      <div class="container">
+        <div class="header-area">
+          <div class="logo">SALAH-DEV</div>
+          <div class="links-container">
+            <ul class="links">
+              <li><a href="#about-us" class="active">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#products">Products</a></li>
+              <li><a href="#Contact">Contact</a></li>
+            </ul>
+            <button class="toglle-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="introduction-text">
+        <h1>We are the <span>best...</span></h1>
+        <p>
+          Our company is a full-service web agency offering strategy and
+          consultation, brand development, web design, content strategy
+        </p>
+      </div>
+    </div>
+    <!--end landing page-->
+    <!--start about us section-->
+    <div class="container">
+      <div class="about-us">
+        <div class="info-box">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+            fugiat eveniet dolores, vel ab nihil repudiandae in exercitationem!
+            Velit enim nostrum sit eum. Nisi ipsa autem corporis vitae, quasi
+            vero!
+          </p>
+        </div>
+        <div class="image-box">
+          <img src="images/about.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!--end about us section-->
+    <!--start our skills-->
+    <div class="skills" id="skills">
+      <div class="container">
+        <h2>Our Skills</h2>
+        <div class="skill-box">
+          <div class="skill-name">HTML</div>
+          <div class="skill-progress">
+            <span data-progress="80%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">CSS</div>
+          <div class="skill-progress">
+            <span data-progress="80%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">JAVA-SCRIPT</div>
+          <div class="skill-progress">
+            <span data-progress="70%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Python</div>
+          <div class="skill-progress">
+            <span data-progress="50%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end our skills-->
+    <!--products-->
+    <div class="products" id="products">
+      <div class="container">
+        <h2>Our Products</h2>
+        <div class="images-box">
+          <img
+            src="images/pc-hd-1080p-nature-1920x1080-wallpaper-preview.jpg"
+            alt=""
+          />
+          <img src="images/04.jpg" alt="" />
+          <img src="images/product (3).jpg" alt="" />
+          <img src="images/product (4).jpg" alt="" />
+          <img src="images/product (5).png" alt="" />
+          <img src="images/product(2).jpg" alt="" />
+          <img src="images/product.jpg" alt="" />
+          <img src="images/product7.jpg" alt="" />
+          <img src="images/pexels-pixabay-36717.jpg" alt="" />
+          <img src="images/wp2713600.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!--products-->
+    <!--start contact-->
+    <div class="contact">
+      <div class="overlay"></div>
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form action="">
+          <div class="left">
+            <input type="text" placeholder="Your Name" name="username" />
+            <input type="text" placeholder="Your Phone" name="phone" />
+            <input type="email" placeholder="Your Email" name="email" />
+            <input type="text" placeholder="Your Subject" name="subject" />
+          </div>
+          <div class="right">
+            <textarea name="massage" placeholder="Your Massage"></textarea>
+            <input type="submit" value="Send" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!--end contact-->
+    <!--start footer-->
+    <div class="footer">Copyright 2021 Slahdev &copy; All Right Reserved</div>
+    <!--end footer-->
+    <script src="js/main.js"></script>
+  </body>
+</html>
